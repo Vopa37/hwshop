@@ -1,7 +1,6 @@
 import React, { useState,useContext } from "react";
 import { Formik, Field } from "formik";
-import { Root, Form, Input, Error, Status} from "./styled";
-import {Button} from "../styled";
+import { Root, Form, Input, Error, Status,Button} from "../styled";
 import { UserSchema } from "./regexp";
 import emailjs from "emailjs-com";
 import {UserContext} from "../../pages";
@@ -17,7 +16,6 @@ const UserAdded = ({message,setMessage}) => (
 )
 
 const RegForm = ({toggle}) => {
-  const [submitted, setSubmitted] = useState(false);
   const [message, setMessage] = useState(undefined);
   const setUser = useContext(UserContext).setUser;
 
@@ -39,7 +37,7 @@ const RegForm = ({toggle}) => {
       <Formik
           validationSchema={UserSchema}
         initialValues={initialValues(true)}
-        onSubmit={(values, { resetForm, setValues }) => {
+        onSubmit={(values, { resetForm}) => {
           axios.get("http://localhost:5000/user/specific", {params:{username:values.username}} ).then((res)=>{
             if(res.data){
               setMessage({text:"Uživatel již existuje",error:true});

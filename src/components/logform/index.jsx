@@ -1,9 +1,9 @@
 import React, { useState, useContext } from "react";
 import { Formik, Field } from "formik";
-import { Root, Form, Input, Error, Status} from "./styled";
 import { UserSchema } from "./regexp";
-import {Button} from "../styled";
+import {Button,ModalAlert,Root, Form, Input, Error} from "../styled";
 import {UserContext} from "../../pages";
+import Modal from "../modal";
 
 const axios = require("axios");
 
@@ -76,7 +76,9 @@ const LogForm = ({toggle}) => {
             </div>
 
             {message &&
-            <Status error={message.error}>{message.text}</Status>
+            <Modal>
+              <ModalAlert message={message} setMessage={setMessage}/>
+            </Modal>
             }
 
             <Button

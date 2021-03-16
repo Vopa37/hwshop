@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Půjčovna strojů`,
-    description: `Prorocketeers půjčovna vybavení pro firmy i jednotlivce.`,
-    author: `Prorocketeers`,
+    title: `HardwareStore`,
+    description: `Prodejna Elektroniky a PC Hardwaru`,
+    author: `Vojtěch Pavelka`,
   },
   plugins: [
     {
@@ -36,9 +36,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-portal`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
   ],
 };

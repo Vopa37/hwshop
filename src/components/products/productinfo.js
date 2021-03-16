@@ -3,7 +3,7 @@ import {Button} from "../styled";
 import {CartContext} from "../../pages";
 import Modal from "../modal";
 import {AnimatePresence} from "framer-motion";
-import {Status} from "../regform/styled";
+import {Status} from "../styled";
 
 const ProductAdded = ({message,setMessage,setDissabled}) => (
     <div className="py-8 mx-12">
@@ -27,7 +27,7 @@ const ProductInfo = ({price,description,name,id,image}) => {
     return(
         <>
             <div className="text-white w-50 h-80 m-auto fw-600">
-                <img className="my-8 rounded-lg" src={image}/>
+                <img className="my-8 rounded-lg" src={image} alt={image}/>
                 <p className="text-center product-name">{name}</p>
                 <p className="text-center product-price ">Cena: <span className="font-size-20">{price}</span> Kč</p>
                 <p className="text-center">{description}</p>

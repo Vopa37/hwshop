@@ -30,26 +30,21 @@ export const prepareItems = (array) => {
     return returnedArray;
 }
 
-
-
-
 const ShoppingCart = () => {
     const cart = JSON.parse(localStorage.getItem("cart"));
     const setCart = useContext(CartContext).setCart;
 
     const deleteItem = (cart,id) => {
-        const resolvedCart = cart.filter(element => element.id != id);
+        const resolvedCart = cart.filter(element => element.id !== id);
         localStorage.setItem("cart",JSON.stringify(resolvedCart));
         setCart(resolvedCart);
     }
 
-    const [message,setMessage] = useState(undefined);
     const [orderSum,setOrderSum] = useState(false);
 
     return(
         <div className="w-80 m-auto">
             <h1 className="text-center text-white">Košík</h1>
-            {message && <p>{message.text}</p>}
             {cart && prepareItems(cart).map((item,index)=>(
                 <div className="text-black w-100 bg-white my-4 d-flex rounded-lg" key={index}>
                     <div className="w-50">
@@ -57,7 +52,7 @@ const ShoppingCart = () => {
                         <p className="text-center m-0 p-0"> <span className="fw-700">Název:</span> {item.data.name}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">Cena:</span> {item.data.price} Kč</p>
                         <div className="mx-auto my-4 w-100px h-100px ">
-                            <img src={item.data.image} className="rounded w-100 h-100"/>
+                            <img src={item.data.image} className="rounded w-100 h-100" alt={item.data.image}/>
                         </div>
                     </div>
 

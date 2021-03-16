@@ -26,7 +26,7 @@ const IndexPage = () => {
         axios.get("http://localhost:5000/user").then((res)=>{
             setUsers(res.data);
         });
-    },[products,users]);
+    },[]);
 
     return(
         <ProductsContext.Provider value={{products:products,setProducts:setProducts}}>
