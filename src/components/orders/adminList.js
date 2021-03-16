@@ -7,8 +7,12 @@ const AdminList = () => {
     const [orders,setOrders] = useState(undefined);
     const users = useContext(UserContext).users;
     const completeOrder = (orderId,setOrderDetail) => {
-        axios.put("http://localhost:5000/order/complete",{id:orderId}).then((res)=>{
+        axios.put("http://localhost:5000/order/complete",{id:orderId}).then(()=>{
             setOrderDetail(undefined);
+            axios.get("http://localhost:5000/order/all").then(response => {
+                    setOrders(response.data);
+                }
+            );
         });
     }
 
@@ -18,9 +22,8 @@ const AdminList = () => {
                 mounted && setOrders(response.data);
             }
         );
-
         return () => mounted = false;
-    }, [orders]);
+    }, []);
 
     const getUser = (userId) => {
        return users.find(user => user._id === userId);

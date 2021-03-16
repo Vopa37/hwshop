@@ -3,13 +3,14 @@ import axios from "axios";
 import {Error, Form, Input, Root, Checkbox} from "../itemform/styled";
 import {Field, Formik} from "formik";
 import {UserSchema} from "../regform/regexp";
-import {Button} from "../styled";
+import {Button,ModalAlert} from "../styled";
 import {UserContext} from "../../pages";
+import Modal from "../modal";
+import {AnimatePresence} from "framer-motion";
 
-const EditProduct = ({admin,user,toggle}) => {
+const EditProduct = ({admin,user}) => {
     const setUsers = useContext(UserContext).setUsers;
-    const [submitted, setSubmitted] = useState(false);
-    const [success, setSuccess] = useState(false);
+    const [message, setMessage] = useState(undefined);
 
     const initialValues = () => ({
         "bot-field": "",
@@ -22,17 +23,12 @@ const EditProduct = ({admin,user,toggle}) => {
         admin:user.admin,
     });
 
-    const showSuccessFormSubmit = (resetForm) => {
-        setSuccess(true);
-        setTimeout(()=>{setSuccess(false);resetForm();window.location = "/";},2000);
-    }
-
     return (
         <Root>
             <Formik
                 validationSchema={UserSchema}
                 initialValues={initialValues(true)}
-                onSubmit={(values, { resetForm, setValues }) => {
+                onSubmit={(values,{resetForm}) => {
                     axios.put("http://localhost:5000/user",{
                         _id: user._id,
                         firstname:values.firstname,
@@ -45,8 +41,9 @@ const EditProduct = ({admin,user,toggle}) => {
                         localStorage.setItem("user",JSON.stringify(res.data));
                         axios.get("http://localhost:5000/user").then((res)=>{
                             setUsers(res.data);
+                            resetForm();
                         })
-                        showSuccessFormSubmit(resetForm);
+                        setMessage({text:"Uživatel změněn",error:false});
                     })
                 }}
                 render={({ handleSubmit, errors, touched, isSubmitting }) => (
@@ -135,11 +132,16 @@ const EditProduct = ({admin,user,toggle}) => {
                         >
                             {submitted ? "✓" : isSubmitting ? "Odesílání" : "Odeslat"}
                         </Button>
-
-                        {success ? <p>OK</p> : null}
                     </Form>
                 )}
             />
+            <AnimatePresence>
+                {message &&
+                <Modal>
+                    <ModalAlert message={message} setMessage={setMessage}/>
+                </Modal>
+                }
+            </AnimatePresence>
         </Root>
     );
 }

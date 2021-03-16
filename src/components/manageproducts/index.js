@@ -1,13 +1,13 @@
 import React, {useState, useContext} from "react";
 import axios from "axios";
-import {Button} from "../styled";
+import {Button,Status} from "../styled";
 import Modal from "../modal";
 import {AnimatePresence} from "framer-motion";
 import ItemForm from "../itemform";
 import {ProductsContext} from "../../pages";
 import EditProduct from "./editproduct";
 import Confirm from "../confirm";
-import {Status} from "../regform/styled";
+
 
 const ProductDeleted = ({message,setMessage}) => (
     <div className="py-8 mx-12">

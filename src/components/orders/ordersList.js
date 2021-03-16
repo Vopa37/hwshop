@@ -1,8 +1,4 @@
-import React, {useState,useContext} from "react";
-import {Button} from "../styled";
-import {CartContext} from "../../pages";
-import Modal from "../modal";
-import {AnimatePresence} from "framer-motion";
+import React from "react";
 import OrderSmall from "./ordersmall";
 
 export const prepareItems = (array) => {

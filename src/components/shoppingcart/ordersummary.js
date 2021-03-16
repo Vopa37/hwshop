@@ -1,19 +1,10 @@
 import React, { useState} from "react";
 import LogForm from "../logform";
 import RegForm from "../regform";
-import {Button} from "../styled";
+import {Button,ModalAlert} from "../styled";
 import axios from "axios";
 import {AnimatePresence} from "framer-motion";
 import Modal from "../modal";
-import {Status} from "../regform/styled";
-
-
-const OrderCompleted = ({message,setMessage}) => (
-    <div className="py-8 mx-12">
-        <Status error={message.error}>{message.text}</Status>
-        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setTimeout(()=>{document.location.href="/";localStorage.removeItem("cart")},500)},2000)}</p>
-    </div>
-)
 
 const countOrderPrice = (data) => {
 
@@ -80,7 +71,7 @@ const OrderSummary = ({data}) => {
             <AnimatePresence>
                 {message &&
                 <Modal>
-                    <OrderCompleted message={message} setMessage={setMessage}/>
+                    <ModalAlert message={message} setMessage={setMessage}/>
                 </Modal>
                 }
             </AnimatePresence>

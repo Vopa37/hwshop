@@ -4,7 +4,6 @@ import {Button} from "../styled";
 const OrderLarge = ({data,completeOrder,setOrderDetail}) => {
     return(
         <div className="bg-white rounded-lg w-80 mx-auto my-6 p-4">
-            <h4 className="text-center">{data.order._id}</h4>
             {data.user &&
             <>
                 <p className="text-center">Uživatel: {data.user.firstname} {data.user.lastname}</p>
@@ -16,7 +15,7 @@ const OrderLarge = ({data,completeOrder,setOrderDetail}) => {
                 <div className="my-4 text-center item-bordered" key={index}>
                     <p>{item.data[0].name}</p>
                     <div className="w-30 m-auto">
-                        <img src={item.data[0].image}/>
+                        <img src={item.data[0].image} alt={item.data[0].image}/>
                     </div>
                     <p>Počet kusů v objednávce: {item.count}</p>
                     <p>Cena za kus: {item.data[0].price} Kč</p>

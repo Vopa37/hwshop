@@ -8,7 +8,7 @@ const OrderSmall = ({order,user,completeOrder}) => {
     return(
         <>
             <SmallOrderWrapper onClick={()=>{setOrderDetail({order,user})}}>
-                <span>id : <span className="font-weight-900">{order._id}</span></span>
+                <span>Cena: <span className="font-weight-900">{order.price} Kč</span></span>
                 {user && <span>uživatel : <span className="font-weight-900">{user.username}</span></span>}
                 <span>stav : <span className="font-weight-900" style={{color:order.completed?"green":"red"}}>{order.completed ? "Dokončená" : "Probíhá"}</span></span>
             </SmallOrderWrapper>
