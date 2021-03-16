@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, { useState} from "react";
 import LogForm from "../logform";
 import RegForm from "../regform";
 import {Button} from "../styled";
@@ -6,13 +6,12 @@ import axios from "axios";
 import {AnimatePresence} from "framer-motion";
 import Modal from "../modal";
 import {Status} from "../regform/styled";
-import {CartContext} from "../../pages";
 
 
 const OrderCompleted = ({message,setMessage}) => (
     <div className="py-8 mx-12">
         <Status error={message.error}>{message.text}</Status>
-        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setTimeout(()=>{document.location.href="/";},500)},2000)}</p>
+        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setTimeout(()=>{document.location.href="/";localStorage.removeItem("cart")},500)},2000)}</p>
     </div>
 )
 
@@ -41,7 +40,6 @@ const countCartItems = (data) => {
 const sendOrder = (user,data,price,setMessage) => {
     axios.post("http://localhost:5000/order",{userId:user._id,items:data,price:price,completed:false}).then((res)=>{
         setMessage(res.data);
-        localStorage.removeItem("cart");
     }).catch((error)=>{
         console.log(error);
     })
@@ -52,7 +50,6 @@ const OrderSummary = ({data}) => {
     const [reg,setReg] = useState(false);
     const [log,setLog] = useState(true);
     const [message,setMessage] = useState(undefined);
-    const setCart = useContext(CartContext).setCart;
 
     const user = JSON.parse(localStorage.getItem("user"));
 
@@ -90,7 +87,7 @@ const OrderSummary = ({data}) => {
         </div>
     ) : (
         <div>
-            <p className="text-white text-center">Abyste mohli odeslat objednávku, musíte se <a className="text-black-50 cursor-pointer"onClick={()=>{setReg(false); setLog(true)}}>příhlásit</a>/<a className="text-black-50 cursor-pointer" onClick={()=>{setLog(false); setReg(true)}}>zaregistrovat</a></p>
+            <p className="text-white text-center">Abyste mohli odeslat objednávku, musíte se <a className="text-black-50 cursor-pointer" onClick={()=>{setReg(false); setLog(true)}}>příhlásit</a>/<a className="text-black-50 cursor-pointer" onClick={()=>{setLog(false); setReg(true)}}>zaregistrovat</a></p>
                 {log &&
                     <LogForm toggle={setLog}/>
                 }
