@@ -169,7 +169,7 @@ const RegForm = ({toggle}) => {
             <Button
               type="submit"
             >
-              {submitted ? "✓" : isSubmitting ? "Odesílání" : "Odeslat"}
+              Odeslat
             </Button>
           </Form>
         )}
