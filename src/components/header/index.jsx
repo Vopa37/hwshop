@@ -25,7 +25,6 @@ import AdminList from "../orders/adminList";
 
 import axios from "axios";
 import {AnimatePresence} from "framer-motion";
-//import kontextu uživatele (obsahuje informace o přihlášeném uživateli)
 import {UserContext} from "../../pages";
 
 const Header = () => {
@@ -71,7 +70,7 @@ const Header = () => {
                 <Button onClick={()=>{setReg(true)}}>Registrace</Button>
               </>
           }
-          <div className="w-40px h-40px cursor-pointer m-auto hover-move-up" onClick={()=>{setOpenCart(true)}}><img src={cart} alt={image}/></div>
+          <div className="w-40px h-40px cursor-pointer m-auto hover-move-up" onClick={()=>{setOpenCart(true)}}><img src={cart} alt={cart}/></div>
           {user &&
               <UserId>
                   <p>Uživatel: {user.username}</p>
