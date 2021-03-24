@@ -32,8 +32,6 @@ const Header = () => {
     const [log,setLog] = useState(false);
     const user = useContext(UserContext).user;
     const setUser = useContext(UserContext).setUser;
-    //inicializace stavů stránky
-    const [logOffState,setLogOff] = useState(false);
     const [usersInterface,setUsersInterface] = useState(false);
     const [productsInterface,setProductsInterface] = useState(false);
     const [ordersInterface,setOrdersInterface] = useState(false);
@@ -46,8 +44,8 @@ const Header = () => {
       },[]);
 
     const logOff = () => {
-        setLogOff(true);
-        setTimeout(()=>{ localStorage.clear();setUser(undefined); setLogOff(false)},2000);
+        localStorage.clear();
+        setUser(undefined);
     }
 
     const getOrders = (userId) => {
@@ -86,7 +84,6 @@ const Header = () => {
                   )}
                   <Button onClick={()=>{getOrders(user._id)}}>Mé objednávky</Button>
                   <Button onClick={logOff}>Odhlásit se</Button>
-                  {logOffState && <p className="text-black">Odhlašování...</p>}
               </UserId>
             }
         <div>

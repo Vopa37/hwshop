@@ -13,8 +13,7 @@ const EditProduct = ({admin,user}) => {
     const [message, setMessage] = useState(undefined);
 
     const initialValues = () => ({
-        "bot-field": "",
-        "form-name": "Order",
+        "form-name": "UserEdit",
         firstname:user.firstname,
         lastname:user.lastname,
         username: user.username,
@@ -49,13 +48,8 @@ const EditProduct = ({admin,user}) => {
                 render={({ handleSubmit, errors, touched, isSubmitting }) => (
                     <Form
                         onSubmit={handleSubmit}
-                        name="Order"
-                        data-netlify="true"
-                        data-netlify-honeypot="bot-field"
+                        name="UserEdit"
                     >
-                        <Field type="hidden" name="form-name" />
-                        <Field type="hidden" name="bot-field" />
-
                         <div>
                             <Input
                                 type="text"
@@ -130,7 +124,7 @@ const EditProduct = ({admin,user}) => {
                         <Button
                             type="submit"
                         >
-                            {submitted ? "✓" : isSubmitting ? "Odesílání" : "Odeslat"}
+                            Odeslat
                         </Button>
                     </Form>
                 )}
