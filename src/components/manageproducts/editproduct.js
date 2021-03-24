@@ -1,13 +1,13 @@
 import React, {useState} from "react";
 import axios from "axios";
 import {Error, Form, Input, Root} from "../itemform/styled";
-import {Button} from "../styled";
+import {Button, ModalAlert} from "../styled";
 import {Field, Formik} from "formik";
 import {ProductSchema} from "../itemform/regexp";
+import Modal from "../modal";
 
-const EditProduct = ({product,toggle}) => {
-    const [submitted, setSubmitted] = useState(false);
-    const [success, setSuccess] = useState(false);
+const EditProduct = ({product}) => {
+    const [message,setMessage] = useState(undefined);
     const initialValues = () => ({
         "bot-field": "",
         "form-name": "Order",
@@ -17,17 +17,12 @@ const EditProduct = ({product,toggle}) => {
         image:product.image
     });
 
-    const showSuccessFormSubmit = (resetForm) => {
-        setSuccess(true);
-        setTimeout(()=>{setSuccess(false);resetForm();window.location = "/";},2000);
-    }
-
     return (
         <Root>
             <Formik
                 validationSchema={ProductSchema}
                 initialValues={initialValues(true)}
-                onSubmit={(values, { resetForm, setValues }) => {
+                onSubmit={(values, { resetForm}) => {
                     axios.put("http://localhost:5000/product",{
                         _id: product._id,
                         name:values.name,
@@ -35,10 +30,11 @@ const EditProduct = ({product,toggle}) => {
                         price:values.price,
                         image:values.image
                     }).then(()=>{
-                        showSuccessFormSubmit(resetForm);
+                        setMessage({text:"Změna produktu proběhla úspěšně",error:false});
+                        resetForm();
                     })
                 }}
-                render={({ handleSubmit, errors, touched, isSubmitting }) => (
+                render={({ handleSubmit, errors, touched}) => (
                     <Form
                         onSubmit={handleSubmit}
                         name="Order"
@@ -100,10 +96,15 @@ const EditProduct = ({product,toggle}) => {
                         <Button
                             type="submit"
                         >
-                            {submitted ? "✓" : isSubmitting ? "Odesílání" : "Odeslat"}
+                            Odeslat
                         </Button>
 
-                        {success ? <p>OK</p> : null}
+                        {message &&
+                        <Modal>
+                            <ModalAlert message={message} setMessage={setMessage}/>
+                        </Modal>
+                        }
+
                     </Form>
                 )}
             />
