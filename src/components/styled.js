@@ -107,9 +107,9 @@ export const Button = styled.button`
   
 `;
 
-export const ModalAlert = ({message,setMessage}) => (
+export const ModalAlert = ({message,setMessage,redirectDisable}) => (
     <div className="py-8 mx-12">
         <Status error={message.error}>{message.text}</Status>
-        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setTimeout(()=>{document.location.href="/";localStorage.removeItem("cart")},500)},2000)}</p>
+        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setTimeout(()=>{redirectDisable ? ()=>{} : document.location.href="/" ;localStorage.removeItem("cart")},500)},2000)}</p>
     </div>
 )

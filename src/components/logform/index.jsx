@@ -8,11 +8,9 @@ import Modal from "../modal";
 const axios = require("axios");
 
 const LogForm = ({toggle}) => {
-  const [submitted, setSubmitted] = useState(false);
   const [message, setMessage] = useState(undefined);
   const setUser = useContext(UserContext).setUser;
   const initialValues = () => ({
-    "bot-field": "",
     "form-name": "Order",
     username:"",
     password:"",
@@ -25,7 +23,6 @@ const LogForm = ({toggle}) => {
           validationSchema={UserSchema}
           initialValues={initialValues(true)}
           onSubmit={(values, { resetForm }) => {
-            setSubmitted(true);
           axios.get("http://localhost:5000/user/specific", {params:{username:values.username,password:values.password}} ).then((res)=>{
             if(res.data){
               resetForm();
@@ -43,13 +40,8 @@ const LogForm = ({toggle}) => {
         render={({ handleSubmit, errors, touched, isSubmitting }) => (
           <Form
             onSubmit={handleSubmit}
-            name="Order"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            name="Login"
           >
-            <Field type="hidden" name="form-name" />
-            <Field type="hidden" name="bot-field" />
-
             <div>
               <Input
                   type="text"
@@ -77,14 +69,14 @@ const LogForm = ({toggle}) => {
 
             {message &&
             <Modal>
-              <ModalAlert message={message} setMessage={setMessage}/>
+              <ModalAlert message={message} setMessage={setMessage} redirectDisable/>
             </Modal>
             }
 
             <Button
               type="submit"
             >
-              {submitted ? "✓" : isSubmitting ? "Odesílání" : "Odeslat"}
+              Odeslat
             </Button>
           </Form>
         )}
