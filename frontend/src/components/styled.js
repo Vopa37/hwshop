@@ -52,6 +52,11 @@ export const Button = styled.button`
   margin: 0 2rem 2rem 2rem;
   width: 50%;
   height:2rem;
+  @media(max-width: 992px){
+    max-width: 0;
+    min-width: 80%;
+    margin: 1rem auto ;
+  }
   background-color:${Theme.palette.secondary};
   color:${Theme.palette.text};
   border:0;
@@ -71,4 +76,9 @@ export const Status = styled.div`
     font-size:2rem;
     text-align:center;
     font-weight:900;
+`;
+
+export const AlertWrapper = styled.div`
+    width: 100%;
+    margin: 2rem 0;
 `;

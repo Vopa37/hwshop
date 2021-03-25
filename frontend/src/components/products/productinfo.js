@@ -5,8 +5,6 @@ import Modal from "../modal";
 import {AnimatePresence} from "framer-motion";
 import Alert from "../alert";
 
-
-
 const ProductInfo = ({price,description,name,id,image}) => {
     const setCart = useContext(CartContext).setCart;
     const cart = useContext(CartContext).cart;
@@ -28,8 +26,9 @@ const ProductInfo = ({price,description,name,id,image}) => {
                 <p className="text-center">{description}</p>
                 <Button className="position-relative mx-0" style={{left:"50%",transform:"translateX(-50%)"}} onClick={()=>{
                     !dissabled && addToCart(id,name,price,image);
-                    !dissabled && setMessage(`${name} přídán do košíku`);
+                    !dissabled && setMessage({text:`${name} přídán do košíku`,error:false});
                     !dissabled && setDissabled(true);
+                    setTimeout(()=>{setDissabled(false)},5000);
                 }}>
                     Do košíku
                 </Button>

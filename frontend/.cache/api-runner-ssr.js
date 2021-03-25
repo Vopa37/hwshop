@@ -1,18 +1,18 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('C:/Users/vojte/Documents/HwHub/frontend/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/vojte/Documents/hwidk/frontend/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('C:/Users/vojte/Documents/HwHub/frontend/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/vojte/Documents/hwidk/frontend/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/cart.svg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"54b3b7d79ae9f0411f50cbae91234c87"},
     },{
       name: 'gatsby-plugin-portal',
-      plugin: require('C:/Users/vojte/Documents/HwHub/frontend/node_modules/gatsby-plugin-portal/gatsby-ssr'),
+      plugin: require('C:/Users/vojte/Documents/hwidk/frontend/node_modules/gatsby-plugin-portal/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('C:/Users/vojte/Documents/HwHub/frontend/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/vojte/Documents/hwidk/frontend/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

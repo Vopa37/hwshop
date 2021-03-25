@@ -47,8 +47,8 @@ const ManageProducts = () => {
                     }
                 </AnimatePresence>
             {products && products.map((product,index)=>(
-                <div className="text-black w-100 bg-white my-4 d-flex" key={index}>
-                    <div className="w-50">
+                <div className="text-black w-100 bg-white my-4 md:d-flex" key={index}>
+                    <div className="w-full md:w-50">
                         <p className="text-center m-0 p-0"> <span className="fw-700">ID:</span> {product._id}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">Název:</span> {product.name}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">Cena:</span> {product.price}</p>
@@ -56,12 +56,12 @@ const ManageProducts = () => {
                         <img src={product.image} alt={product.image} className="rounded w-100 h-100"/>
                         </div>
                     </div>
-                    <div className="w-50 d-flex flex-column justify-content-center">
-                        <Button className="w-50 m-auto" onClick={()=>{setEditProduct(product)}}>Upravit</Button>
+                    <div className="md:w-50 d-flex flex-column justify-content-center">
+                        <Button onClick={()=>{setEditProduct(product)}}>Upravit</Button>
                     </div>
 
-                    <div className="w-50 d-flex flex-column justify-content-center">
-                        <Button className="w-50 m-auto" onClick={()=>{setDeleteConfirm(true)}}>Odstranit</Button>
+                    <div className="md:w-50 d-flex flex-column justify-content-center">
+                        <Button onClick={()=>{setDeleteConfirm(true)}}>Odstranit</Button>
                     </div>
 
                     <AnimatePresence>

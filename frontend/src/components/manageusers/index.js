@@ -6,6 +6,7 @@ import EditUser from "./edituser";
 import {AnimatePresence} from "framer-motion";
 import {UserContext} from "../homepage";
 import Alert from "../alert";
+import {UserInfo} from "./styled";
 
 const ManageUsers = () => {
     const users = useContext(UserContext).users;
@@ -21,7 +22,7 @@ const ManageUsers = () => {
 
     const deleteUser = (id,setUsers) => {
         axios.delete("/order",{params:{userId:id}});
-        axios.put('/user/remove',{params:{id:id}}).then((res)=>{
+        axios.delete('/user/remove',{params:{id:id}}).then((res)=>{
             setMessage(res.data);
             axios.get('/user').then((res)=>{
                 setUsers(res.data);
@@ -41,20 +42,20 @@ const ManageUsers = () => {
                }
            </AnimatePresence>
             { users && users.map((user,index)=>(
-                <div className="text-black w-100 bg-white my-4 d-flex" key={index}>
-                    <div className="w-50">
+                <UserInfo key={index}>
+                    <div className="w-full md:w-50">
                         <p className="text-center m-0 p-0"> <span className="fw-700">ID:</span> {user._id}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">Jméno:</span> {user.firstname}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">Příjmení:</span> {user.lastname}</p>
                         <p className="text-center m-0 p-0"> <span className="fw-700">E-mail:</span> {user.email}</p>
                     </div>
 
-                    <div className="w-50 d-flex flex-column justify-content-center">
-                        <Button className="w-50 m-auto" onClick={()=>{setEditUser(user)}}>Upravit</Button>
+                    <div className="md:w-50 d-flex flex-column justify-content-center">
+                        <Button onClick={()=>{setEditUser(user)}}>Upravit</Button>
                     </div>
 
-                    <div className="w-50 d-flex flex-column justify-content-center">
-                        {!user.admin && <Button className="w-50 m-auto" onClick={()=>{deleteUser(user._id,setUsers)}}>Odstranit</Button> }
+                    <div className="md:w-50 d-flex flex-column justify-content-center">
+                        {!user.admin && <Button onClick={()=>{deleteUser(user._id,setUsers)}}>Odstranit</Button> }
                     </div>
 
                     <AnimatePresence>
@@ -64,7 +65,7 @@ const ManageUsers = () => {
                         </Modal>
                         }
                     </AnimatePresence>
-                </div>
+                </UserInfo>
             ))}
         </div>
     );
