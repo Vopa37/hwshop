@@ -13,7 +13,10 @@ export const Root = styled.div`
 `;
 
 export const Form = styled(FormikForm)`
-  width: 40%;
+  @media(max-width: 992px){
+    width: 90%;
+  }
+  width:40%;
   align-items: center;
   margin: auto;
 `;

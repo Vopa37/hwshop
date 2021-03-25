@@ -7,7 +7,7 @@ import {
     ModalContent,
     InsideWrap,
 } from "./styled";
-import { clearAllBodyScrollLocks, disableBodyScroll } from "body-scroll-lock";
+import { enableBodyScroll, disableBodyScroll } from "body-scroll-lock";
 import Portal from "./portal";
 
 import { usePresence } from "framer-motion";
@@ -24,7 +24,7 @@ const Modal = ({ toggle, children}) => {
         if (!isPresent) {
             setAnimationComplete(false);
             setTimeout(safeToRemove, 500);
-            clearAllBodyScrollLocks();
+            enableBodyScroll(modalRef);
         }
     }, [isPresent, modalRef, safeToRemove]);
 
@@ -66,7 +66,7 @@ const Modal = ({ toggle, children}) => {
                                 <Close
                                     onClick={() => {
                                         toggle(false);
-                                        clearAllBodyScrollLocks();
+                                        enableBodyScroll(modalRef);
                                     }}
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 20.39 20.39"

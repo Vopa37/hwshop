@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aee04c3-7855-4e39-9b25-fd26dc578353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/manageusers/styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/api-runner-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/api-runner-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/async-requires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/babelState.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/babelState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/json/_dev-404-page_.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/json/_dev-404-page_.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.cache/redux/redux.node.state_0" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/redux/redux.node.state_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/redux/redux.rest.state" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/redux/redux.rest.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.cache/sync-requires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/page-data/dev-404-page/page-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/public/page-data/sq/d/1022643890.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/page-data/sq/d/1022643890.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/render-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/render-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/render-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/render-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageproducts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageproducts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageusers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageusers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/products/productinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/products/productinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/logform/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/logform/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/regform/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/regform/styled.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +87,7 @@
       <workItem from="1611157257482" duration="7331000" />
       <workItem from="1616694543669" duration="31000" />
       <workItem from="1616695046911" duration="1987000" />
-      <workItem from="1616714562748" duration="1505000" />
+      <workItem from="1616714562748" duration="1955000" />
     </task>
     <task id="LOCAL-00001" summary="Reinitialized repo using Gatsby">
       <created>1608661288419</created>
@@ -138,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616695665229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Restyled buttons">
+      <created>1616716171273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616716171273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +147,7 @@
     <MESSAGE value="Working product adding interface and showing products" />
     <MESSAGE value="Completed basic http request endpoints and requests" />
     <MESSAGE value="Heroku implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heroku implementation" />
+    <MESSAGE value="Restyled buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restyled buttons" />
   </component>
 </project>
