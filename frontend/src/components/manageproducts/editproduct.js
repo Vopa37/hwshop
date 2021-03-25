@@ -26,7 +26,7 @@ const EditProduct = ({product}) => {
                 validationSchema={ProductSchema}
                 initialValues={initialValues(true)}
                 onSubmit={(values, { resetForm, setValues }) => {
-                    axios.put("http://localhost:5000/product",{
+                    axios.put("/product",{
                         _id: product._id,
                         name:values.name,
                         description:values.description,

@@ -40,7 +40,7 @@ const countCartItems = (data) => {
 }
 
 const sendOrder = (user,data,price,setMessage) => {
-    axios.post("http://localhost:5000/order",{userId:user._id,items:data,price:price,completed:false}).then((res)=>{
+    axios.post("/order",{userId:user._id,items:data,price:price,completed:false}).then((res)=>{
         setMessage(res.data);
         localStorage.removeItem("cart");
     }).catch((error)=>{

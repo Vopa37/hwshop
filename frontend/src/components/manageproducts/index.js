@@ -19,9 +19,9 @@ const ManageProducts = () => {
 
 
     const deleteProduct = (id) => {
-        axios.delete('http://localhost:5000/product',{params:{id:id}}).then((res)=>{
+        axios.put('/product',{params:{id:id}}).then((res)=>{
             setMessage(res.data);
-            axios.get("http://localhost:5000/product").then((res)=>{
+            axios.get("/product").then((res)=>{
                 setProducts(res.data);
             });
         });

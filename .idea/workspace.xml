@@ -2,379 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aee04c3-7855-4e39-9b25-fd26dc578353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/manageproducts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/manageproducts/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/manageusers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/productinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/api-runner-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/async-requires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/babelState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/babelState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-1c39d4359553d5289cae0a5e6e3adb72.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-1c39d4359553d5289cae0a5e6e3adb72.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-24eaee2e3db896a5df551b0a66eb5ffb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-24eaee2e3db896a5df551b0a66eb5ffb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-2e0aefa3cef13ee2eba74858a74899a7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-2e0aefa3cef13ee2eba74858a74899a7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-3cb157f67cff5eb273080bd6e4f1c790.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-3cb157f67cff5eb273080bd6e4f1c790.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-453edd87fb755f4b3b04ac42268c524c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-453edd87fb755f4b3b04ac42268c524c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-4a54035b1c1e0c21115dcaf836d41fac.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-4a54035b1c1e0c21115dcaf836d41fac.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-4a6dd85a32fcdf6b46c581f1505fa01c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-4a6dd85a32fcdf6b46c581f1505fa01c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-5b665875e2d401c3d7fe75e3d8e86ffa.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-5b665875e2d401c3d7fe75e3d8e86ffa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-66d68e4a1d11715c631848783f628b27.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-66d68e4a1d11715c631848783f628b27.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-68dbacde6f6dafe0051f6b012399b3c5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-68dbacde6f6dafe0051f6b012399b3c5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-6dafcccd28aecc885a9127662726803d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-6dafcccd28aecc885a9127662726803d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-743ab75bd698c85f638c0fb4368a8773.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-743ab75bd698c85f638c0fb4368a8773.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-805a972c9ea35ced254960c65957114a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-805a972c9ea35ced254960c65957114a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-82b62704ae091911888e578018113e8d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-82b62704ae091911888e578018113e8d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-95a701b023dafa32cd480f7f2a435546.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-95a701b023dafa32cd480f7f2a435546.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-9a95eeb526dc1f4c002dfc1007be5b79.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-9a95eeb526dc1f4c002dfc1007be5b79.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-b761bdf0f3876e47ffefcabf5f515984.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-b761bdf0f3876e47ffefcabf5f515984.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-bc6151949feabced4e0274b1c6c0ef2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-bc6151949feabced4e0274b1c6c0ef2e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c5575ad22b48d3e5e9fb4b3248b83ea0.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c5575ad22b48d3e5e9fb4b3248b83ea0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c71a1df6ec550c04bb18bc100afa1823.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c71a1df6ec550c04bb18bc100afa1823.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c9718dad3561bebe6e36678cfd3dcb71.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-c9718dad3561bebe6e36678cfd3dcb71.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-cd19f30de03448f4f5296d6be4ba0f32.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-cd19f30de03448f4f5296d6be4ba0f32.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-cdd13cde9828d4c0308e0ec6b4c4e587.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-cdd13cde9828d4c0308e0ec6b4c4e587.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-dee8244293a2a2651a9bab08589fb9bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-dee8244293a2a2651a9bab08589fb9bb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e3bd3cbec0932e256364ddb9f3170c22.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e3bd3cbec0932e256364ddb9f3170c22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e608a10963767dea8778951330341b46.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e608a10963767dea8778951330341b46.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e94d40f8735ffac68f884607668e4bd3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-e94d40f8735ffac68f884607668e4bd3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-eb21b80753d2492b979966351cd8a46d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-eb21b80753d2492b979966351cd8a46d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-ed0a5e2694b3b0bce6a365a329564adc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-ed0a5e2694b3b0bce6a365a329564adc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_10_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_11_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_12_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_13_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_14_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_15_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_16_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_17_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_18_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_19_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_1_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_20_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_21_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_22_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_23_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_2_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_3_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_4_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_5_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_6_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_7_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_8_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/json/_product_9_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.rest.state" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.rest.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/sync-requires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/tmp-20792-Z1lMGN2BCF3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/tmp-20792-bdvL5QWBIDzd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/tmp-8932-SSbwdm9BTMrL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/tmp-8932-XUzekwjpzNDG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/0142fcf810eb1ae3c52f5dd49addc3a8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/01947ec8738f8ebc6afedabcd834d28b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/06f07de22664bd8e620fae7cdf365a87.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/087601372d11d24063c9fc0199a94990.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/0a7ecd837f6c28a6cd4e40b7f8d869a4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/0d57693c1ca5fe9543527cb16567b6cc.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/0f6c32244f25e22967c034be6db8ed0e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/103cd8071865a7cb69b36f0aff95d8b3.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/12e9b0c56e3c910a4f87c450d7c646f3.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/1367d085925cac90810793b057e2d247.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/186ac9273b845a9190a900db7d6cd281.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/18b7d51aff34dd72e523f6eb909bded6.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/18b8477aa58436661dd91f5f20546896.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/1ab1176888b522ff28f686dbb55995cc.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/1fdf82f2b61969e9f82d8b29f0933b5f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/208e540a6ae167d5f2c26132d38b638b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/242cceb2bf2495456e295ccef3a532ec.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/2484b1d6b03b64a199fc0bfb91bfa8dc.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/25e6fb6171f315d1b7c647083d2c7701.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/27a1adcac785a4961de46eca23ba15ce.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/2f1ecde00b60cf8eb23a014bc611236e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/3529625c4b621476cf863a9e750edf79.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/358c3bcd9d960aa0188ccf4e119dc37b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/36906771b43e569156869d48a03cab4a.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/3f0298adaec94390c17ebf57dfd3795e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/3f65c4f7114bca96db91acce060800b0.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/3feee20dda164fbcac7033084142c5fb.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/3fef7db73bea8cfc9d3c98b0b70a5565.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4227e79877526f3518e722a2bb114f28.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/425842325259d04d68af34e88059c744.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4acca3cd2cb468025d690f90e336cb28.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4c794aa9e4ce419635e74d46577a4566.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4d94acc4aaad7f4daefc12bf6e91d42f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4dcd6f048f8f1bba3c0b2ad66671067a.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4e3a85dbd6b34dab96f80deddc5a8db3.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4e60b6853a41b9894dbed9e90a9bedbd.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/4e9a4fc3a249da6817241f8ce7ed93d4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/50cd425cedc1a65373e3f265db0b2a89.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/512003025edf4e0e5990160b35e12376.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/533b2855246cdd2542cecd191c547c66.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/54fffd5b3c69bd63aa5cf5d6c14a8e3c.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/55cced1e2bec25aeda2673fcf34819d4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/56faa8618ec484e580c5087152e2deea.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/588c7782244ae184ff6e43aac94609cc.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/5d87191253673a85f651296eefecda4a.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/5deb4661f013bafc2a4c3e8c903c9d2f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/640695b52dcf2e9826aaa937645f00ba.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/64c3b40cdf398773cd59b7093b81c41e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/64de9df84931d09854050ccb5c6cf25b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6555f4263344a7e282d1a279080226bd.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/65b99cef9da314a618e80dd62383d100.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6678bea43c3a85ba6fc8da92d9ae6011.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/66d902341780dce2553fad3456e123f6.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6847928df0713ee049007f2fe463b2af.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6b51b647b2f1a8178d434380a4aab71f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6d714703e6edb3c3f92da33374aec3d8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/6df5125aa70c3f2d524529974e82e3c2.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/71453935baa1fe0997eabc754e6b4c0d.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/73c44b3b745d4790efbed44da2bc4d49.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/785fc3b34a54f4e61394e436a2c02b14.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/789799fde34ad706d0a6d703d247d4c0.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/7eae3ea7def8fe4a23ea4190f58fd826.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/822d543a9e49ed69491126b07c068b75.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/8a3280fe17c2636788bcfe1c8e308c3f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/8b9f3533df7ac6eabcfb1cf2312ac36e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/8c62997bd6d308058dd8711935849d0d.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/96a1f7db40a52c380b440270c6e06212.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/9767e4af3e1ff7758a5959c4189f4141.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/989c427cccf3ebc9617d7f27d836bab7.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/9b1597c2f3ca32803b4f515e395f33f5.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/9e3c207277d505caade6eaf8d1ac31fb.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/9ee0263ee08e595e21f35a032771e661.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/9fb0a5cb12a0dab89aaeb46eccffea34.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a12e6444b7df9a86180715cfc6e33917.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a2c91d9ebe9fc45c7dcb24d2c9c49765.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a3fce674417ae1baa13c11a764771a55.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a8c4e839e359013d55ca8aeecdd91a3e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a982ffa11d001f541e8834e1670c52f2.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/a9ca4420ce44da76f21bbb1b8e6e6316.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ac381221c131320f3cce52969ba0e0e8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/add163d93c05dcb79485f239b4609041.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ae8289bc48b2c4b1a628bd5822b63044.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/aef4e0cb5fb8a83c295046609f8bdc8c.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/af18d823ed60612bd78eee326c7b7158.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/af95eccdda4787a57c8b83afb6632d5f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/b0f0d37e48ce029f33d92e278a80021c.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/b19f5a9b0dbfe6b70681cd392af3dba9.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/b2c684b0cc5dfa2b7c95519b7c77e6ab.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/b35df09477710e67f9cc14d5ac61ecc3.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/b7e53f19e3771b8910a26024eb8eeb85.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/bbfa6788b6958f24116539956917a9ba.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/bc4022c2ad466f59afc64802005b6ddb.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/bdcb5b17f8191e23785d1af9c11a9450.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c0cef0ba35212ed24e02f21854f3aa03.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c0f24416113bec582c49e282bb6297b0.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c2885bd972c72d597e35894c61558fa9.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c7b37caa6b840e4adc86ae60b0f86b85.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c8148b0e05a002ea6b91e5a19fff570f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c943fcd75e8db834eb73c1e06ae1f5c1.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c99053d3175e44c3d0fd58eb935ff9eb.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/c9ae6851a57b64d1199182218fe5dfe8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/cbbdc40c84ce38a08740134e58c43b00.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/cd594aeb10de9976b65322e041c60bf0.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/d016b6cf6e748851dffa390c6573dc5c.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/d2ec40e38fea078f53da2960820ed010.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/d44d640c0affbb5e0faea9cad127e433.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/d66339fad3557521b2cbcabeedbb67a4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/d8050e54781ea72ed079be30dfaf766b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/dd4c564a61bb5f97d4a1e12a3ffc4200.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ddcb848bb14a5717ef60237b2b220b4e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ddd4ca2cff2ccb315c5b9bca71e96722.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/de4f0e718c88d665e09126179342d0fc.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e1089b98a46e6e8d1d1870ff48e4f312.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e15c665eb17ce3f5f2b5c64c002099de.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e28cbf10d779881929e2eb72e793e3a7.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e6b2c7ed4ce91ab605b0cd2e140c2c73.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e78b3c4052d18ff9a4803d9ab082cb0e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/e8e49665ed0af630ff400e51e7d9aa94.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/eabe06bec7bc3e9eba408d6b19c19c16.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ed9e19d83ebde7968921363aca191593.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ee7729a1297e741ccded598254950ff4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ef3973c5366ce12c968edc09c246e897.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/ef6670c96699e164ecd63e276e375b45.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/f40e0d590e2f009bae260d1c7baa424e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/f68c2652bf9fc46d64166cb3ac0e88ac.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/webpack/babel/fc156423776a18349d07042d9f672d16.json.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/1/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/10/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/11/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/12/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/13/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/14/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/15/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/16/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/17/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/18/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/19/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/2/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/20/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/21/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/22/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/23/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/3/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/4/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/5/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/6/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/7/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/8/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/product/9/page-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/1022643890.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/1022643890.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/render-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/render-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/2a4de/mac2017_12_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/2a4de/mac2017_12_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/630fb/mac2017_12_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/630fb/mac2017_12_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/6d161/mac2017_12_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/6d161/mac2017_12_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/b50f6/mac2017_12_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/00153c1dbf324d79022fa630aaf5e808/b50f6/mac2017_12_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/2a4de/mac2020_13_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/2a4de/mac2020_13_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/630fb/mac2020_13_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/630fb/mac2020_13_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/65595/mac2020_13_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/65595/mac2020_13_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/6d161/mac2020_13_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/6d161/mac2020_13_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/db955/mac2020_13_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/1a8dcd2174aa891b38fda64e9ddacb8a/db955/mac2020_13_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/2a4de/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/2a4de/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/630fb/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/630fb/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/6d161/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/6d161/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/78055/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/78055/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/db955/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/db955/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/f3583/delle6520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/3b6142d0cb36fc5af644baa4bd512c38/f3583/delle6520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/40eacf112d5e34aebbdf9c487f60c4b7/65e33/prorocketeers_rocket.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/40eacf112d5e34aebbdf9c487f60c4b7/65e33/prorocketeers_rocket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/2a4de/delle7450.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/2a4de/delle7450.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/5a1ae/delle7450.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/5a1ae/delle7450.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/630fb/delle7450.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/630fb/delle7450.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/6d161/delle7450.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/6d161/delle7450.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/db955/delle7450.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/43e8eef2c798338f8e87e69779a5c5bb/db955/delle7450.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/48975e5042656755a506ed80e8a38c57/6ca84/monitorIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/48975e5042656755a506ed80e8a38c57/6ca84/monitorIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/497c6/hp450g6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/497c6/hp450g6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/630fb/hp450g6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/630fb/hp450g6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/6d161/hp450g6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/59523175ade3589ccefd167040bc33a8/6d161/hp450g6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/2a4de/delle6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/2a4de/delle6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/630fb/delle6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/630fb/delle6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/6d161/delle6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/6d161/delle6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/a8378/delle6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/a8378/delle6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/db955/delle6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/61d5cbb2edba38516425db09d6404446/db955/delle6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/65839c73ced46ed7e6571c1af81c1147/c5e7c/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/65839c73ced46ed7e6571c1af81c1147/c5e7c/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/68249b43ca087558ad01eaf3bf583281/1a118/projectorIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/68249b43ca087558ad01eaf3bf583281/1a118/projectorIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/72b6f663670f109069f2cdc67261716f/65e33/appleIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/72b6f663670f109069f2cdc67261716f/65e33/appleIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/497c6/mac2020_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/497c6/mac2020_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/630fb/mac2020_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/630fb/mac2020_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/6d161/mac2020_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/73863536b50ff666f7fd5c9dbd5982e3/6d161/mac2020_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/1fe8a/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/1fe8a/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/2a4de/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/2a4de/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/630fb/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/630fb/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/6d161/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/6d161/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/db955/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/db955/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/f3583/mac2012_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/7b6feb257586f6066e75e2dabe39bfbb/f3583/mac2012_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/2a4de/mac2014_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/2a4de/mac2014_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/31987/mac2014_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/31987/mac2014_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/630fb/mac2014_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/630fb/mac2014_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/6d161/mac2014_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/6d161/mac2014_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/db955/mac2014_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/849cb6894d488945df199686eac323cf/db955/mac2014_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/2a4de/asuszenbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/2a4de/asuszenbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/31987/asuszenbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/31987/asuszenbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/630fb/asuszenbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/630fb/asuszenbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/6d161/asuszenbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/6d161/asuszenbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/db955/asuszenbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/99e953a543d8d842ee55bc309d09b711/db955/asuszenbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/2a4de/mac2012_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/2a4de/mac2012_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/3225f/mac2012_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/3225f/mac2012_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/630fb/mac2012_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/630fb/mac2012_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/6d161/mac2012_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/6d161/mac2012_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/db955/mac2012_13_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9bfa7dc90acd5b9b9f7c1de1a54f6b7d/db955/mac2012_13_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/630fb/epsonebw22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/630fb/epsonebw22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/6d161/epsonebw22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/6d161/epsonebw22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/a5370/epsonebw22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/9cf388f16f958aab7a450a3acf069560/a5370/epsonebw22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/2a4de/mac2017_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/2a4de/mac2017_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/630fb/mac2017_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/630fb/mac2017_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/65595/mac2017_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/65595/mac2017_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/6d161/mac2017_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/6d161/mac2017_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/db955/mac2017_15_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ab23ec3dc64f7e13a23d2ddf8ff2c2ba/db955/mac2017_15_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/2a4de/dell7590.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/2a4de/dell7590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/630fb/dell7590.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/630fb/dell7590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/6d161/dell7590.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/6d161/dell7590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/a8378/dell7590.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/a8378/dell7590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/db955/dell7590.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ac3501a102fd1fabf95cb86b24fb59d5/db955/dell7590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/2a4de/mac2013_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/2a4de/mac2013_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/630fb/mac2013_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/630fb/mac2013_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/6d161/mac2013_15_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ae0c87da93f8fa36d2e2a650e850ea7b/6d161/mac2013_15_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bd74a8ee3775492e9daf4de994ac47aa/75a8a/notebookIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bd74a8ee3775492e9daf4de994ac47aa/75a8a/notebookIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/2a4de/benqmx520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/2a4de/benqmx520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/630fb/benqmx520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/630fb/benqmx520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/6d161/benqmx520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/6d161/benqmx520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/a8378/benqmx520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/a8378/benqmx520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/db955/benqmx520.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bf8d9bb93398481cf5ea0a51fd5dc6af/db955/benqmx520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/2a4de/hp27fw.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/2a4de/hp27fw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/630fb/hp27fw.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/630fb/hp27fw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/6d161/hp27fw.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ce806efe08b19b2a1d7f2e1995cc8993/6d161/hp27fw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/2a4de/mac2020_16_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/2a4de/mac2020_16_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/630fb/mac2020_16_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/630fb/mac2020_16_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/65595/mac2020_16_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/65595/mac2020_16_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/6d161/mac2020_16_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/6d161/mac2020_16_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/db955/mac2020_16_touch_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d2fd56bd8d249c30179510569765ec27/db955/mac2020_16_touch_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ef407650421a635c0eff2d7ad7b347aa/6d161/lenovos740.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ef407650421a635c0eff2d7ad7b347aa/6d161/lenovos740.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/ef407650421a635c0eff2d7ad7b347aa/8067f/lenovos740.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/ef407650421a635c0eff2d7ad7b347aa/8067f/lenovos740.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/2a4de/delle6540.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/2a4de/delle6540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/3c17d/delle6540.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/3c17d/delle6540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/630fb/delle6540.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/630fb/delle6540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/6d161/delle6540.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f18e14ba21b64cd5adf85564cf4468ac/6d161/delle6540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/2a4de/dell5580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/2a4de/dell5580.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/630fb/dell5580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/630fb/dell5580.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/6d161/dell5580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/6d161/dell5580.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/db955/dell5580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/db955/dell5580.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/f3583/dell5580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/f50a5836f8e29498e164b52ddbc4f244/f3583/dell5580.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemform/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemform/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logform/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logform/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logform/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logform/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/Descriptionline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/description.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/imagesresolver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/medailon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/medailon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/regform/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/regform/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theme.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/appleIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/asuszenbook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/benqmx520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/dell5580.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/dell7590.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/delle6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/delle6520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/delle6540.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/delle7450.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/epsonebw22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hp27fw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hp450g6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/lenovos740.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2012_13_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2012_15_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2013_15_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2014_13_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2017_12_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2017_15_touch_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2020_13_touch_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2020_15_touch_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mac2020_16_touch_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/monitorIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/notebookIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/people.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/planet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/projectorIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/prorocketeers_rocket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/prorocketeers_rocket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rocketDark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rocketLight.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/order.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/homepage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/itemform/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/itemform/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/logform/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/logform/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageproducts/editproduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageproducts/editproduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageproducts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageproducts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageusers/edituser.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageusers/edituser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/manageusers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/manageusers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/orders/adminList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/orders/adminList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/products/productinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/products/productinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/regform/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/regform/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/shoppingcart/ordersummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/shoppingcart/ordersummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,6 +43,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1m1JUjMLPzy2026yIxVPiIwQ9bD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -398,8 +60,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -413,15 +76,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/itemform" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vojte\Documents\hwidk" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -442,6 +106,8 @@
       <workItem from="1610629632665" duration="1691000" />
       <workItem from="1610653101439" duration="10302000" />
       <workItem from="1611157257482" duration="7331000" />
+      <workItem from="1616694543669" duration="31000" />
+      <workItem from="1616695046911" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="Reinitialized repo using Gatsby">
       <created>1608661288419</created>
@@ -487,57 +153,5 @@
     <MESSAGE value="Working product adding interface and showing products" />
     <MESSAGE value="Completed basic http request endpoints and requests" />
     <option name="LAST_COMMIT_MESSAGE" value="Completed basic http request endpoints and requests" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="476" y="-734" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609337014872">
-      <screen x="-232" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="476" y="-734" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-232.-1080.1920.1080@-232.-1080.1920.1080" timestamp="1609337014872" />
-    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1610659084283">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="304" y="25" key="CommitChangelistDialog2/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1610659084283" />
-    <state width="1419" height="376" key="GridCell.Tab.0.bottom" timestamp="1608661042766">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1608661042766" />
-    <state width="1419" height="376" key="GridCell.Tab.0.center" timestamp="1608661042765">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="376" key="GridCell.Tab.0.center/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1608661042765" />
-    <state width="1419" height="376" key="GridCell.Tab.0.left" timestamp="1608661042764">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="376" key="GridCell.Tab.0.left/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1608661042764" />
-    <state width="1419" height="376" key="GridCell.Tab.0.right" timestamp="1608661042765">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="376" key="GridCell.Tab.0.right/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1608661042765" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1610554564080">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1610554564080" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610659087701">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1610659087701" />
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610617942200">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1610617942200" />
-    <state x="494" y="246" width="567" height="490" key="find.popup" timestamp="1612197269085">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="427" y="-785" width="602" height="490" key="find.popup/0.0.1440.900/-232.-1080.1920.1080@-232.-1080.1920.1080" timestamp="1609340305124" />
-    <state x="494" y="246" width="567" height="490" key="find.popup/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1612197269085" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1610660554260">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1610660554260" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612182437899">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="281" y="-845" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/-232.-1080.1920.1080@-232.-1080.1920.1080" timestamp="1609336937388" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-232.-1080.1920.1080@0.0.1440.900" timestamp="1612182437899" />
   </component>
 </project>

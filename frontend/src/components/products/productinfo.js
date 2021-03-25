@@ -3,14 +3,9 @@ import {Button} from "../styled";
 import {CartContext} from "../homepage";
 import Modal from "../modal";
 import {AnimatePresence} from "framer-motion";
-import {Status} from "../styled";
+import Alert from "../alert";
 
-const ProductAdded = ({message,setMessage,setDissabled}) => (
-    <div className="py-8 mx-12">
-        <Status error={false}>{message}</Status>
-        <p className="d-none">{setTimeout(()=>{setMessage(undefined);setDissabled(false)},2000)}</p>
-    </div>
-)
+
 
 const ProductInfo = ({price,description,name,id,image}) => {
     const setCart = useContext(CartContext).setCart;
@@ -43,7 +38,7 @@ const ProductInfo = ({price,description,name,id,image}) => {
             <AnimatePresence>
                 {message &&
                 <Modal>
-                   <ProductAdded message={message} setDissabled={setDissabled} setMessage={setMessage}/>
+                   <Alert message={message} setMessage={setMessage}/>
                 </Modal>
                 }
             </AnimatePresence>

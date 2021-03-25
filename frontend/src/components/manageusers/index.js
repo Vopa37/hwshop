@@ -14,16 +14,16 @@ const ManageUsers = () => {
     const [editUser,setEditUser] = useState(undefined);
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/user').then((res)=>{
+        axios.get('/user').then((res)=>{
             setUsers(res.data);
         });
     },[setUsers])
 
     const deleteUser = (id,setUsers) => {
-        axios.delete("http://localhost:5000/order",{params:{userId:id}});
-        axios.delete('http://localhost:5000/user/remove',{params:{id:id}}).then((res)=>{
+        axios.delete("/order",{params:{userId:id}});
+        axios.put('/user/remove',{params:{id:id}}).then((res)=>{
             setMessage(res.data);
-            axios.get('http://localhost:5000/user').then((res)=>{
+            axios.get('/user').then((res)=>{
                 setUsers(res.data);
             });
         });

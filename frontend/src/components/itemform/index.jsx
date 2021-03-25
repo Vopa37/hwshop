@@ -24,7 +24,7 @@ const ItemForm = () => {
           validationSchema={ProductSchema}
         initialValues={initialValues(true)}
         onSubmit={(values, { resetForm, setValues }) => {
-          axios.post("http://localhost:5000/product",{
+          axios.post("/product",{
             name:values.name,
             description:values.description,
             price:values.price,

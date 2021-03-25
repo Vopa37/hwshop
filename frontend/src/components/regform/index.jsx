@@ -35,12 +35,12 @@ const RegForm = ({toggle}) => {
           validationSchema={UserSchema}
         initialValues={initialValues(true)}
         onSubmit={(values, { resetForm, setValues }) => {
-          axios.get("http://localhost:5000/user/specific", {params:{username:values.username}} ).then((res)=>{
+          axios.get("/user/specific", {params:{username:values.username}} ).then((res)=>{
             if(res.data){
               setMessage({text:"Uživatel již existuje",error:true});
               resetForm();
             }else if(values.password === values.passwordcheck){
-              axios.post("http://localhost:5000/user",{
+              axios.post("/user",{
                 firstname:values.firstname,
                 lastname:values.lastname,
                 username:values.username,

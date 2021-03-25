@@ -28,7 +28,7 @@ const LogForm = ({toggle}) => {
           initialValues={initialValues(true)}
           onSubmit={(values, { resetForm }) => {
             setSubmitted(true);
-          axios.get("http://localhost:5000/user/specific", {params:{username:values.username,password:values.password}} ).then((res)=>{
+          axios.get("/user/specific", {params:{username:values.username,password:values.password}} ).then((res)=>{
             if(res.data){
               resetForm();
               localStorage.setItem("user",JSON.stringify(res.data));

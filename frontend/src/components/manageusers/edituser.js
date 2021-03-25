@@ -31,7 +31,7 @@ const EditUser = ({admin,user}) => {
                 validationSchema={UserSchema}
                 initialValues={initialValues(true)}
                 onSubmit={(values, { resetForm, setValues }) => {
-                    axios.put("http://localhost:5000/user",{
+                    axios.put("/user",{
                         _id: user._id,
                         firstname:values.firstname,
                         lastname:values.lastname,
@@ -42,7 +42,7 @@ const EditUser = ({admin,user}) => {
                     }).then((res)=>{
                         localStorage.setItem("user",JSON.stringify(res.data.user));
                         setMessage(res.data.message);
-                        axios.get("http://localhost:5000/user").then((res)=>{
+                        axios.get("/user").then((res)=>{
                             setUsers(res.data);
                         })
                     })

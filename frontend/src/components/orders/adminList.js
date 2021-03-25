@@ -7,14 +7,14 @@ const AdminList = () => {
     const [orders,setOrders] = useState(undefined);
     const users = useContext(UserContext).users;
     const completeOrder = (orderId,setOrderDetail) => {
-        axios.put("http://localhost:5000/order/complete",{id:orderId}).then((res)=>{
+        axios.put("/order/complete",{id:orderId}).then((res)=>{
             setOrderDetail(undefined);
         });
     }
 
     useEffect(() => {
         let mounted = true;
-        axios.get("http://localhost:5000/order/all").then(response => {
+        axios.get("/order/all").then(response => {
                 mounted && setOrders(response.data);
             }
         );

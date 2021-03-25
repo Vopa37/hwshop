@@ -19,11 +19,11 @@ const Homepage = () => {
     const [user, setUser] = useState(undefined);
 
     useEffect(()=>{
-        axios.get("http://localhost:5000/product").then((res)=>{
+        axios.get("/product").then((res)=>{
             setProducts(res.data);
         });
 
-        axios.get("http://localhost:5000/user").then((res)=>{
+        axios.get("/user").then((res)=>{
             setUsers(res.data);
         });
     },[]);

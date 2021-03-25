@@ -46,7 +46,7 @@ const Header = () => {
     }
 
     const getOrders = (userId) => {
-        axios.get("http://localhost:5000/order",{params:{userId:userId}}).then((res)=>{
+        axios.get("/order",{params:{userId:userId}}).then((res)=>{
             setOrders(res.data);
         })
     }
