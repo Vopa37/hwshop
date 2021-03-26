@@ -1,0 +1,2 @@
+(self.webpackChunkhardwarestore_frontend=self.webpackChunkhardwarestore_frontend||[]).push([[678],{7704:function(e,n,t){"use strict";t.r(n);var r=t(7294),a=t(561),u=t(3808),s=t(6633);t.n(s)().defaults.baseURL="https://hwshop.herokuapp.com";n.default=function(){return r.createElement(a.Nn,null,r.createElement(u.ZP,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-807345f4e1aa87b0a498.js.map
